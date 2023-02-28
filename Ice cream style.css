@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/coneground.png');
+  height: 100vh;
+  max-width: 100vw;
+  z-index: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+#melting-img {
+  width: 240px;
+  height: auto;
+  position: absolute;
+  top: -180px;
+  left: 0vw;
+  z-index: 3;
+}
+h3 {
+  font-family: 'Tilt Neon';
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  color: rgb(247, 247, 20);
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+h1 {
+  font-family: 'Tilt Neon';
+  font-size: 8vw;
+  font-weight: bold;
+  color: rgb(247, 247, 20);
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  background: rgba(233, 57, 128, 255);
+}
+#img-bowl {
+  position: absolute;
+  width: 22vw;
+  height: auto;
+  left: -15vw;
+  bottom: -1vh;
+  z-index: 2;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: auto;
+}
+#prices,
+#flavors,
+#toppings,
+#basket {
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  height: 60vh;
+  border-radius: 15px;
+  background: rgb(140, 223, 222);
+  z-index: 1;
+}
+#flavors,
+#basket {
+  background: rgba(249, 128, 176, 255);
+}
+
+.catagorie {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  position: relative;
+}
+.balls {
+  border: 2px solid yellow;
+}
